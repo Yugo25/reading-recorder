@@ -19,6 +19,6 @@ model reviews {
   publisher String
   published String
   image     String
-  read      DataTime  @default(now())
+  read      DateTime  @default(now())
   memo      String
 }
