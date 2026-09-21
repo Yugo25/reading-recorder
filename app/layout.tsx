@@ -16,8 +16,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
-      <body className="min-h-full flex flex-col">{children}
-        
+      <body className={fnt.className}>
+        <h1 className="text-4xl text-indigo-800 font-bold my-2">
+          Reading Recorder
+        </h1>
       </body>
     </html>
   );
